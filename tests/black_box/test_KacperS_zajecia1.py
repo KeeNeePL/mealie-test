@@ -2,7 +2,7 @@
 Black-box unit tests — KacperS.
 
 Test cases are designed only from each function's signature, name and docstring
-(see tests/black_box/KacperS.md). Tested functions:
+(see tests/black_box/KacperS_zajecia1.md). Tested functions:
 
 - create_recipe_slug                    (KS-01 .. KS-10)
 - QueryFilterBuilder.combine_filters    (KS-11 .. KS-19)

@@ -8,7 +8,7 @@
 - `mealie/services/query_filter/builder.py`
 - `mealie/schema/meal_plan/plan_rules.py`
 
-**Plik z testami:** `tests/black_box/test_KacperS.py`
+**Plik z testami:** `tests/black_box/test_KacperS_zajecia1.py`
 
 Użytkownik loguje się hasłem i dostaje token sesji. Każdy przepis ma własny adres (slug) tworzony z nazwy. Przepisy filtruje się zapytaniami (wyszukiwarka, książki kucharskie, reguły planera), a planer przypisuje posiłki do dni tygodnia.
 
@@ -30,8 +30,8 @@ Użytkownik loguje się hasłem i dostaje token sesji. Każdy przepis ma własny
    - niepoprawne dane (złe hasło, polskie znaki i znaki specjalne w nazwie, błędna składnia filtra).
 2. Przy wynikach losowych (hash, token) testuj **właściwości** wyniku, a nie konkretną wartość (np. `verify(x, hash(x))` daje `True`, zwrócony czas ważności równa się podanemu).
 3. Wpisz przypadki do tabeli poniżej (ta tabela idzie do dokumentacji).
-4. Zaimplementuj testy w `tests/black_box/test_KacperS.py` w `pytest` (`@pytest.mark.parametrize`, ID przypadku jako `id=`).
-5. Uruchom: `uv run pytest tests/black_box/test_KacperS.py -v`
+4. Zaimplementuj testy w `tests/black_box/test_KacperS_zajecia1.py` w `pytest` (`@pytest.mark.parametrize`, ID przypadku jako `id=`).
+5. Uruchom: `uv run pytest tests/black_box/test_KacperS_zajecia1.py -v`
 6. Uzupełnij kolumnę *Wynik* (`PASS` / `FAIL` + opis rozbieżności).
 7. Własny branch (np. `tests/KacperS`) i PR do `mealie-next`.
 
@@ -80,5 +80,5 @@ Zaimplementowane funkcje: #3 `create_recipe_slug`, #4 `combine_filters`, #5 `Pla
 
 ```bash
 uv sync --no-install-package python-ldap
-uv run --no-sync pytest tests/black_box/test_KacperS.py -v --noconftest
+uv run --no-sync pytest tests/black_box/test_KacperS_zajecia1.py -v --noconftest
 ```
