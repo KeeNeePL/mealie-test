@@ -1,4 +1,4 @@
-# Unit testy czarnoskrzynkowe — Basia
+# Unit testy czarnoskrzynkowe
 
 **Funkcjonalność:** rozpoznawanie składników i przeliczanie jednostek
 **Pliki źródłowe:**
@@ -52,7 +52,7 @@ Mealie zamienia tekst składnika (np. „2 1/2 cup flour”) na ilość, jednost
 
 **Podsumowanie:** 15 przypadków, 10 PASS, 5 FAIL. Wszystkie błędy dotyczą `parse_amount`: nie oddziela jednostki od nazwy produktu i nie obsługuje tekstu bez ilości ani pustego stringa (rzuca wyjątki zamiast zwrócić ilość 0).
 
-## Pokrycie kodu (coverage.py)
+# Pokrycie kodu (coverage.py)
 
 **Poprawki testów:** nie były potrzebne, wszystkie 15 testów się uruchamia (5 FAIL to wykryte błędy, nie błędy testów). Nie dopisano nowych testów.
 
