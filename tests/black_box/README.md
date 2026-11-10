@@ -25,6 +25,6 @@ Każda osoba testuje **5 funkcji** realizujących jej funkcjonalność. Razem: 1
 |---|---|---|
 | KacperM | [kacperM.md](kacperM.md) | `test_kacperM.py` |
 | Basia | [basia.md](basia.md) | `test_basia.py` |
-| KacperS | [KacperS_zajecia1.md](KacperS_zajecia1.md) | `test_KacperS_zajecia1.py` |
+| KacperS | [kacper-s/zajecia1/KacperS_zajecia1.ipynb](kacper-s/zajecia1/KacperS_zajecia1.ipynb) | `kacper-s/zajecia1/test_create_recipe_slug.py`, `test_combine_filters.py`, `test_from_date.py` |
 
 Uruchomienie wszystkich testów: `uv run pytest tests/black_box -v`

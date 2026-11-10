@@ -2,7 +2,7 @@
 Runs pytest under coverage.py and records WHICH test case executed WHICH line.
 
 Usage (from the repository root):
-    python tests/black_box/coverage_runner_zajecia2.py OUTPUT_DIR TEST_FILE [TEST_FILE ...]
+    python tests/black_box/kacper-s/zajecia2/zadanie1/coverage_runner_zajecia2.py OUTPUT_DIR TEST_FILE [TEST_FILE ...]
 
 Writes into OUTPUT_DIR:
     coverage.json   - standard `coverage json` report (line + branch, per function)
